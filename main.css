@@ -1,0 +1,29 @@
+body {
+    background-color: blanchedalmond;
+}
+.senator{
+    ;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.senator img{
+    height: 50%;
+    width: 50%;
+}
+.senator h1{
+    
+    margin:0;
+    padding 0;
+   
+}
+.legislation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 500px;
+}
