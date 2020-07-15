@@ -1,0 +1,37 @@
+body {
+    background-color: blanchedalmond;
+}
+  /* Adding a border for the full page */
+.senator{
+    border: crimson .45em solid;
+}
+    /* This is the Title, image, and Main Info */
+ .senator-portrait{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }   
+    /*image sizing */
+
+.senator img{
+    height: 30%;
+    width: 30%;
+}
+/*  here is the title */
+.senator h1{
+    font-size: 2em;
+    
+    margin:0;
+    padding 0;
+   
+}
+
+/* Here is the enacted legislation text */
+.legislation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 1em;
+    text-align: center;
+}
