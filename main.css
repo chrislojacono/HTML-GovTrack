@@ -14,8 +14,7 @@ body {
      flex-direction: column;
      align-items: center;
      background-color: rgb(200, 225, 230);
-     
- }   
+}   
                     /*image sizing */
 
 .senator-picture{
@@ -25,18 +24,25 @@ body {
             /*  here is the title */
 .main-title{
     font-size: 3em;
-    
-    margin:1em;
-    padding 0;
+    text-decoration: underline black;
+    margin:1em 1em .6em 1em;
+    padding: 0;
     background-color: rgb(200, 225, 230);
    
 }
 .under-picture-text{
     font-size: x-large;
     font-weight: bold;
+    margin: .3em;
+}
+.under-picture-text--main{
+    font-size: xx-large;
+    margin-bottom: .35em;
+    font-weight: bold;
 }
 
                 /* this is the box for both the bottom items */
+
 .both-items{
     display: flex;
     background-color: rgb(200, 225, 230);
@@ -47,6 +53,8 @@ body {
 
 
                 /* Here is the commitees lists */
+
+
 .committees{
     width: 50%;
     background-color: rgb(200, 225, 230);
@@ -65,6 +73,8 @@ body {
 }
 
                 /* Links to the legislation  enacted*/
+
+
 .links{
     text-align: center;
     background-color: rgb(200, 225, 230);
