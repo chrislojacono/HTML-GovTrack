@@ -16,14 +16,14 @@ body {
      background-color: rgb(200, 225, 230);
      
  }   
-    /*image sizing */
+                    /*image sizing */
 
-.senator img{
+.senator-picture{
     height: 30%;
     width: 30%;
 }
-/*  here is the title */
-.senator h1{
+            /*  here is the title */
+.main-title{
     font-size: 3em;
     
     margin:1em;
@@ -31,12 +31,12 @@ body {
     background-color: rgb(200, 225, 230);
    
 }
-.senator-portrait p{
+.under-picture-text{
     font-size: x-large;
     font-weight: bold;
 }
 
-/* this is the box for both the bottom items */
+                /* this is the box for both the bottom items */
 .both-items{
     display: flex;
     background-color: rgb(200, 225, 230);
@@ -46,51 +46,44 @@ body {
 }
 
 
-/* Here is the commitees lists */
-.commitees{
+                /* Here is the commitees lists */
+.committees{
     width: 50%;
     background-color: rgb(200, 225, 230);
     }
 
-.commitees div{
+.committees-box{
     padding-left: 2em;
 }
-.commitees h4{
+.committees-title{
     font-size: xx-large;
     border: red 1px solid;
     padding-left: 2em;
-    
-
 }
-.commitees li{
+.committees-list-item{
     list-style: none;
-    /* padding-left: 1em; */
 }
 
-/* Links to the legislation  enacted*/
+                /* Links to the legislation  enacted*/
 .links{
     text-align: center;
     background-color: rgb(200, 225, 230);
-   
-    
 }
 a{
     color: black;
 }
-.links ul{
+.links-list{
     list-style-type: none;
     margin-top: 1em;
-
 }
-
-.links li{
+.links-item{
     margin: 2em;
     color: black;
 }
-.links li:hover{
+.links-item:hover{
     background-color: rgb(224, 28, 28);
 }
-.links h4{
+.links-title{
     font-size: xx-large;
     border: red 1px solid;
 }
