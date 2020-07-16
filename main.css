@@ -1,5 +1,8 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #0C4767;
+    font-family: 'Crimson Text', serif;
+    color:rgb(5, 5, 5); 
+
 }
   /* Adding a border for the full page */
 .senator{
@@ -10,6 +13,8 @@ body {
      display: flex;
      flex-direction: column;
      align-items: center;
+     background-color: rgb(200, 225, 230);
+     
  }   
     /*image sizing */
 
@@ -19,28 +24,73 @@ body {
 }
 /*  here is the title */
 .senator h1{
-    font-size: 2em;
+    font-size: 3em;
     
-    margin:0;
+    margin:1em;
     padding 0;
+    background-color: rgb(200, 225, 230);
    
 }
+.senator-portrait p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* this is the box for both the bottom items */
+.both-items{
+    display: flex;
+    background-color: rgb(200, 225, 230);
+    align-items: stretch;
+    justify-content: center;
+    
+}
+
 
 /* Here is the commitees lists */
 .commitees{
     width: 50%;
-    margin-top: 1em;
-    margin-left: .5em;
-    border: gray 1px solid;
-    padding-left: 1em;
+    background-color: rgb(200, 225, 230);
+    }
 
-    
+.commitees div{
+    padding-left: 2em;
 }
-.commitees h2{
+.commitees h4{
+    font-size: xx-large;
+    border: red 1px solid;
+    padding-left: 2em;
     
 
 }
 .commitees li{
     list-style: none;
-    padding-left: 1em;
+    /* padding-left: 1em; */
+}
+
+/* Links to the legislation  enacted*/
+.links{
+    text-align: center;
+    background-color: rgb(200, 225, 230);
+   
+    
+}
+a{
+    color: black;
+}
+.links ul{
+    list-style-type: none;
+    margin-top: 1em;
+
+}
+
+.links li{
+    margin: 2em;
+    color: black;
+}
+.links li:hover{
+    background-color: rgb(224, 28, 28);
+}
+.links h4{
+    font-size: xx-large;
+    border: red 1px solid;
 }
