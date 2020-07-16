@@ -26,12 +26,21 @@ body {
    
 }
 
-/* Here is the enacted legislation text */
-.legislation{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+/* Here is the commitees lists */
+.commitees{
+    width: 50%;
     margin-top: 1em;
-    text-align: center;
+    margin-left: .5em;
+    border: gray 1px solid;
+    padding-left: 1em;
+
+    
+}
+.commitees h2{
+    
+
+}
+.commitees li{
+    list-style: none;
+    padding-left: 1em;
 }
